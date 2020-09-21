@@ -1,0 +1,14 @@
+
+1. 이미지
+<img src="img_abc.jpg">
+<img src="img_abc.jpg" alt "AAA">
+
+2. 인풋 타입
+<input type="?" value="?">
+value 속성은 <input> 요소의 type 속성값에 따라 달라짐
+
+“button”, “reset”, “submit” : 버튼 내의 텍스트를 정의
+“hidden”, “password”, “text” : 입력 필드의 초깃값을 정의
+“checkbox”, “image”, “radio” : 해당 입력 필드를 선택 시 서버로 제출되는 값을 정의
+
+form-input 그냥 다 중요
