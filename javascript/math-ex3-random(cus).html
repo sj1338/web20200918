@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='https://kit.fontawesome.com/a076d05399.js'>
+    </script>
+    <style>
+
+        p {
+            background-color:skyblue;
+            color :white;
+            width: 500px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 20px;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p id = "result1"></p>
+    <p id = "result2"></p>
+    <p id = "result3"></p>
+    <p id = "result4"></p>
+    <script>
+
+        
+        var a = Math.random();    // 0 <= r < 1
+            console.log(a);
+            document.getElementById("result1").innerHTML = a;
+
+        var b = Math.random() * 45;     // 0 <= r*45 < 45
+            console.log(b);
+            document.getElementById("result2").innerHTML = b;
+
+        var c = Math.floor(Math.random() * 45);     // 0 <= Math.floor(r*45) <= 44
+            console.log(c);
+            document.getElementById("result3").innerHTML = c;
+
+        var d = Math.floor(Math.random() * 45) + 1;    // 1 <= Math.floor(r*45)+1 <= 45
+            console.log(d); 
+            document.getElementById("result4").innerHTML = d;
+
+
+    </script>
+</body>
+</html>

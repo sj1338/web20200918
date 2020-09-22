@@ -12,3 +12,26 @@ value 속성은 <input> 요소의 type 속성값에 따라 달라짐
 “checkbox”, “image”, “radio” : 해당 입력 필드를 선택 시 서버로 제출되는 값을 정의
 
 form-input 그냥 다 중요
+
+3. form 
+https://blog.naver.com/pje00427/222049055865
+
+4. select
+<body>
+    <select name="color" id="" size="2" multiple>
+        <option value="A">Lorem.</option>
+        <option value="B">Asperiores?</option>
+        <option value="C">Ullam.</option>
+        <option value="D">Modi.</option>
+        <option value="E">Ratione.</option>
+    </select>
+    <input type="text" name="firstName" id="">
+    <input type="submit">
+</body>
+
+5. 글상자
+<body>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+
+6. style-ex1, table-ex1 그냥 보면됨
