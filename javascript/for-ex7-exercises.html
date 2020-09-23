@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='https://kit.fontawesome.com/a076d05399.js'>
+    </script>
+    <style>
+       * {
+            font-family: D2Coding, monospace;
+       }
+    </style>
+</head>
+<body>
+    <p>-문제 1-</p>
+    <div id="result1"></div>
+    <br>
+    <p>-문제 2-</p>
+    <div id="result2"></div>
+    <br>
+    <p>-문제 3-</p>
+    <div id="result3"></div>
+    <br>
+    <p>-문제 4-</p>
+    <div id="result4"></div>
+    <br>
+    <p>-문제 5-</p>
+    <div id="result5"></div>
+    <br>
+    <p>-문제 6-</p>
+    <div id="result6"></div>
+    <br>
+    <p>-문제 7-</p>
+    <div id="result7"></div>
+    <br>
+    <p>-문제 8-</p>
+    <div id="result8"></div>
+    <br>
+    <p>-문제 9-</p>
+    <div id="result9"></div>
+    <br>
+    <p>-문제 10-</p>
+    <div id="result10"></div>
+    <br>
+
+    <script>
+
+        // 문제 1
+        var A = "";
+        for (var i = 0; i < 5; i++) {
+            for (var j = 0; j <= i; j++) {
+                A += "*";
+            }
+            A += "<br>";
+            document.getElementById('result1').innerHTML = A;    
+        }
+
+        //문제 2
+        var B = "";
+        for (var i = 4; i >= 0; i--) {
+            for (var j = 0; j <= i; j++) {
+                B += "*";
+            }
+            B += "<br>";
+            document.getElementById('result2').innerHTML = B;    
+        }
+        
+        //문제 3
+        var C = "" 
+        for (var i = 0; i < 5; i++) {
+            for (var k = 0; k <= i; k++) {
+                C += "*";
+            }
+            for (var j = 0; j <=4-i; j++) {
+                C += "#";
+        }
+            C += "<br>";
+            document.getElementById('result3').innerHTML = C;    
+        }
+
+        //문제 4
+        var D = "" 
+        for (var i = 0; i < 5; i++) {
+            for (var k = 0; k <= i; k++) {
+                D += "#";
+            }
+            for (var j = 0; j <=4-i; j++) {
+                D += "*";
+        }
+            D += "<br>";
+            document.getElementById('result4').innerHTML = D;    
+        }
+
+        //문제 5
+        var E = "" 
+        for (var i = 0; i < 5; i++) {
+            for (var k = 0; k <= i; k++) {
+                E += "&nbsp;";
+            }
+            for (var j = 0; j <=4-i; j++) {
+                E += "*";
+        }
+            E += "<br>";
+            document.getElementById('result5').innerHTML = E;    
+        }
+
+        //문제 6
+        var F = "" 
+        for (var i = 0; i < 5; i++) {
+            for (var k = 5; k > i; k--) {
+                F += "&nbsp;";
+            }
+            for (var j = 0; j <= i; j++) {
+                F += "*";
+        }
+            F += "<br>";
+            document.getElementById('result6').innerHTML = F;    
+        }
+
+        //문제 7
+        var G = ""
+        for (var i = 0; i < 5; i++) {
+            G += "01234";
+            G += "<br>";
+        }
+        document.getElementById('result7').innerHTML = G;    
+
+
+    </script>
+</body>
+</html>
