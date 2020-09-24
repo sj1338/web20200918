@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='https://kit.fontawesome.com/a076d05399.js'>
+    </script>
+    <style>
+    </style>
+</head>
+<body>
+    <script>
+        var heros = ["cap", "hulk", "thor", "thanos"];
+
+        heros.splice(1, 2);
+
+        for (var i = 0; i <heros.length; i++) {
+            console.log(heros[i]);
+        }
+
+        heros.splice(1, 0, "batmam", "superman");
+        for (var i = 0; i < heros.length; i++) {
+            console.log(heros[i]);
+        }
+    </script>   
+</body>
+</html>

@@ -57,6 +57,9 @@
         var B = "";
         for (var i = 4; i >= 0; i--) {
             for (var j = 0; j <= i; j++) {
+        // for (var i = 0; i < 5; i++) {
+        //     for (var j 0; j < (5-i); j++)
+        // }
                 B += "*";
             }
             B += "<br>";
@@ -118,21 +121,45 @@
         //문제 7
         var G = ""
         for (var i = 0; i < 5; i++) {
-            G += "01234";
+            for(var j = 0; j < 5; j++)
+            G += j;
+            // G += "01234";
             G += "<br>";
         }
         document.getElementById('result7').innerHTML = G;   
 
         //문제 8
         var H = ""
-        for (var i = 0; i < 5; i++)
-            for (var )
-
+        for (var i = 0; i < 5; i++) {
+            for (var j = i; j < i+5; j++)
+            H += j;
+            H += "<br>";
+            document.getElementById('result8').innerHTML = H;    
+        }
 
         //문제 9
-
+        var I = ""
+        for (var i = 0; i < 5; i++) {
+            for (var j = 0; j <= i; j++)
+            I += j;
+            I += "<br>";
+            document.getElementById('result9').innerHTML = I;    
+        }
 
         //문제 10
+        var J = ""
+        var k = 0;
+        for (var i = 0; i < 5; i++) {
+            // console.log("01234");
+            for (var j = 0; j <= i; j++) {
+                J += (k % 10);
+                k++;
+            }
+            J += "<br>";
+            document.getElementById('result10').innerHTML = J;    
+        }
+
+
     </script>
 </body>
 </html>
