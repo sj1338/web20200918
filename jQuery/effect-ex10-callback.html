@@ -8,8 +8,9 @@
     <script>
         $(document).ready(function() {
             $("#btn1").click(function() {
-                $("h1").toggle(3000);
-                console.log("효과가 끝난 후 실행");
+                $("h1").toggle(3000, function() {
+                    console.log("효과가 끝난 후 실행");
+                });
             });
         });
     </script>
@@ -17,5 +18,5 @@
 <body>
     <button id="btn1">toggle</button>
     <h1>Lorem, ipsum dolor.</h1>
-</body>
-</html>
+<!-- 알아서 브라우저에서 /html /body를 붙였을뿐
+잘 닫아주는 것이 좋다 -->
