@@ -70,3 +70,32 @@ https://blog.naver.com/pje00427/222049055865
 8. 이미지 형식
 <img src="img_abc.jpg">
 <img src="img_abc.jpg" alt "AAA">
+
+
+
+9. 테이블
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
