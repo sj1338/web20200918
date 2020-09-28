@@ -10,8 +10,12 @@
             $("#btn1").click(function() {
                 var txt = $("#input1").val();
                 var li = $("<li />");
-                li.text(txt).click(function () { // li 의 택스트를 불러오는데 거기에 txt의 값을 넣어줌
+                li.text(txt).click(function () { // li 에 (텍스트화된) txt의 값을 넣어줌
                     $(this).remove();
+                // li.text(txt);
+                //   li.click(function() {
+                //   $(this).remove();
+                // });
                 });
                 $("#result").append(li);
             });
