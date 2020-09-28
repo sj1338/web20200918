@@ -1,7 +1,11 @@
 
-1. 이미지
-<img src="img_abc.jpg">
-<img src="img_abc.jpg" alt "AAA">
+ALT SHIFT F 자동정렬
+
+
+1. 스타일 형식
+<tagname style="property:value;">
+
+
 
 2. 인풋 타입
 <input type="?" value="?">
@@ -11,10 +15,13 @@ value 속성은 <input> 요소의 type 속성값에 따라 달라짐
 “hidden”, “password”, “text” : 입력 필드의 초깃값을 정의
 “checkbox”, “image”, “radio” : 해당 입력 필드를 선택 시 서버로 제출되는 값을 정의
 
-form-input 그냥 다 중요
+
 
 3. form 
 https://blog.naver.com/pje00427/222049055865
+
+
+
 
 4. select
 <body>
@@ -29,9 +36,37 @@ https://blog.naver.com/pje00427/222049055865
     <input type="submit">
 </body>
 
+
+
+
 5. 글상자
 <body>
     <textarea name="" id="" cols="30" rows="10"></textarea>
 </body>
 
-6. style-ex1, table-ex1 그냥 보면됨
+
+
+
+7. 외부 css
+<head>
+  <link rel="stylesheet" href="CSS이름.css">
+</head>
+
+8. 링크 형식
+<a href="주소">link text</a>
+
+이미지 링크
+<a href="주소"><img src="사진"></a>
+
+창 띄우는 방식
+<a href="주소" target="_blank">text</a>
+
+타이틀
+<a href="주소" title="마우스 올리면 나오는 글">text</a>
+
+
+
+
+8. 이미지 형식
+<img src="img_abc.jpg">
+<img src="img_abc.jpg" alt "AAA">
